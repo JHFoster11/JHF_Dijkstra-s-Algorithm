@@ -1,7 +1,6 @@
 % Jacob Foster
 % 2/20/2023
-% CE-642
-% Week 7 Assignment - Dijkstra’s Algorithm
+% Dijkstraâ€™s Algorithm
 
 % Reminder that position (1,1) is actually vertex # 0 in this assignment. This code can convert
 % node #'s to 1...inf format and then outputs back to 0...inf format.
@@ -12,7 +11,7 @@
 % for out of range source and destination nodes that the user inputs.
 % The other feature is exit handling in case the user wants to exit the
 % program after the program has been started. These features are mostly
-% unnecessary for the Dijkstra’s Algorithm but have some utility.
+% unnecessary for the Dijkstraâ€™s Algorithm but have some utility.
 
 % The cost matrix needs to be defined manually.
 
@@ -137,7 +136,7 @@ end% EH
 
 
 function [sp, spcost] = dijkstra_opt(cost_matrix, s, d,format)
-    % This is an implementation of the dijkstra´s algorithm, wich finds the 
+    % This is an implementation of the dijkstraÂ´s algorithm, wich finds the 
     % minimal cost path between two nodes. 
     
     % n: the number of nodes in the network;
